@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <input type="checkbox" id="check" />
+   <label for="check"> Checkbox </label>
+   <div isActive=""></div>
+   <p>Isi atribut isActive : <span id="kondisi"></span></p>
+   <script>
+	let check = document.getElementById("check");
+	let kondisi = document.getElementById("kondisi");
+	let div = document.querySelector("div");
+	check.addEventListener("change", function () {
+		if (check.checked) {
+			div.setAttribute("isActive", "true");
+			kondisi.innerHTML = div.getAttribute("isActive");
+		} else {
+		   div.setAttribute("isActive", "false");
+		   kondisi.innerHTML = div.getAttribute("isActive");
+		}
+	});
+   </script>
+</body>
+
+</html>

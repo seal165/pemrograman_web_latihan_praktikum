@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <div style="width: 100px; height: 100px; 
+        background-color: tomato" id="targetObject"></div>
+   <input type="text" placeholder="masukan warna"
+	  style="margin: 10px 0" id="inputWarna" />
+   <br />
+   <button onClick="ubah()">Ubah Warna</button>
+   <script>
+	function ubah() {
+	  let warna = document.getElementById("inputWarna").value;
+	  let target = document.getElementById("targetObject");
+	  target.style.backgroundColor = warna;
+	}
+   </script>
+</body>
+</html>
