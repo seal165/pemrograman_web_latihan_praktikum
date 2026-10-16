@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Onchange</title>
+</head>
+<body>
+    <select name="prodi" id="prodi">
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Teknik Elektro">Teknik Elektro</option>
+        <option value="Teknik Industri">Teknik Industri</option>
+        <option value="Teknik Mesin">Teknik Mesin</option>
+        <option value="Teknik Kimia">Teknik Kimia</option>
+    </select>
+
+    <p id="demo"></p>
+
+    <script>
+    const selectElement = document.getElementById("prodi");
+
+    selectElement.addEventListener("change", function() {
+      const selectedValue = this.value;
+      document.getElementById("demo").innerHTML = `Pilihan mu adalah ${selectedValue}`;
+    });
+    </script>
+</body>
+</html>

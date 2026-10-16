@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="myFunction()">Try It</button>
+    <p id="demo"></p>
+    <script>
+      function myFunction() {
+        let text = "";
+        let pil = confirm("apakah hari ini praktikum web ?");
+        if (pil == true) {
+          text = "Ya, sedang praktikum";
+        } else {
+          text = "Tidak ada praktikum";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+</body>
+</html>
