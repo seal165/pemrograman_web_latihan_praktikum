@@ -27,9 +27,9 @@
             <i class="fas fa-bars"></i>
           </label>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="categories/categories.html">Categories</a></li>
-            <li><a href="login.html" class="btn_login">Login</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="login.php" class="btn_login">Login</a></li>
           </ul>
         </nav>
       </header>

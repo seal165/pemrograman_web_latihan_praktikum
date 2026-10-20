@@ -26,7 +26,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Categories</a></li>
-                    <li><a href="login.html" class="btn_login">Login</a></li>
+                    <li><a href="login.php" class="btn_login">Login</a></li>
                 </ul>
             </nav>
         </header>
